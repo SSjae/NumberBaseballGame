@@ -54,7 +54,7 @@
             this.button1.Location = new System.Drawing.Point(555, 8);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 31);
+            this.button1.Size = new System.Drawing.Size(128, 31);
             this.button1.TabIndex = 1;
             this.button1.Text = "시작하기";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,7 +64,7 @@
             this.button2.Location = new System.Drawing.Point(555, 43);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 31);
+            this.button2.Size = new System.Drawing.Size(128, 31);
             this.button2.TabIndex = 1;
             this.button2.Text = "정답보기";
             this.button2.UseVisualStyleBackColor = true;
@@ -74,7 +74,7 @@
             this.button3.Location = new System.Drawing.Point(555, 77);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 31);
+            this.button3.Size = new System.Drawing.Size(128, 31);
             this.button3.TabIndex = 1;
             this.button3.Text = "초기화";
             this.button3.UseVisualStyleBackColor = true;
@@ -84,7 +84,7 @@
             this.button4.Location = new System.Drawing.Point(555, 314);
             this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 29);
+            this.button4.Size = new System.Drawing.Size(128, 29);
             this.button4.TabIndex = 1;
             this.button4.Text = "결과확인";
             this.button4.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(120, 100);
+            this.textBox3.Size = new System.Drawing.Size(128, 100);
             this.textBox3.TabIndex = 2;
             // 
             // textBox1
@@ -117,7 +117,7 @@
             this.label1.Location = new System.Drawing.Point(555, 117);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 32);
+            this.label1.Size = new System.Drawing.Size(128, 32);
             this.label1.TabIndex = 3;
             this.label1.Text = "성공  :  실패";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -126,7 +126,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("맑은 고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(561, 161);
+            this.label2.Location = new System.Drawing.Point(563, 161);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 20);
@@ -137,7 +137,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("맑은 고딕", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(624, 161);
+            this.label3.Location = new System.Drawing.Point(628, 161);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(50, 20);
@@ -150,7 +150,7 @@
             this.button5.Location = new System.Drawing.Point(624, 278);
             this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 27);
+            this.button5.Size = new System.Drawing.Size(59, 27);
             this.button5.TabIndex = 5;
             this.button5.Text = "관리";
             this.button5.UseVisualStyleBackColor = false;

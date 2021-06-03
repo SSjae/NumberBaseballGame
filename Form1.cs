@@ -5,7 +5,7 @@ namespace BaseballGame
 {
     public partial class Form1 : Form
     {
-        public int max = 7; //기회
+        public int chance = 7; //기회
         int randomNum; //난수
         int success = 0; //성공횟수
         int fail = 0; //실패횟수
@@ -17,7 +17,7 @@ namespace BaseballGame
             InitializeComponent();
 
             textBox2.Focus();
-            textBox3.Text = "규칙 : " + max + "번 안으로 정답 맞추면 성공!! 아니면 실패!!";
+            textBox3.Text = "규칙 : " + chance + "번 안으로 정답 맞추면 성공!! 아니면 실패!!";
 
             button1.Click += Button1_Click; //시작하기
             button2.Click += Button2_Click; //정답보기
@@ -101,7 +101,7 @@ namespace BaseballGame
                 str = " / 스트라이크 : " + strikeNum + " / 볼 : " + ballNum;
             }
 
-            if(cnt == max)
+            if(cnt == chance)
             {
                 if (strikeNum.Equals(4))
                 {

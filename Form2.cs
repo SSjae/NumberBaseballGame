@@ -6,11 +6,11 @@ namespace BaseballGame
 {
     public partial class Form2 : Form
     {
-        Form1 frm1;
+        Form1 fm1;
         public Form2(Form1 _form)
         {
             InitializeComponent();
-            frm1 = _form;
+            fm1 = _form;
 
             button1.Click += Button1_Click;
         }
@@ -18,8 +18,8 @@ namespace BaseballGame
         private void Button1_Click(object sender, EventArgs e)
         {
             int max = (int)numericUpDown1.Value;
-            frm1.max = max;
-            frm1.textBox3.Text = "규칙 : " + max + "번 안으로 정답 맞추면 성공!!! 아니면 실패!!!";
+            fm1.max = max;
+            fm1.textBox3.Text = "규칙 : " + max + "번 안으로 정답 맞추면 성공!!! 아니면 실패!!!";
             Close();
         }
     }
